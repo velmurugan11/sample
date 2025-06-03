@@ -8,9 +8,9 @@ class calc{
 }
 public class sample {
     public static void main(String[] args) {
-        System.out.println("Hello!");
+        System.out.println("Hello From the calculator version 1.");
         calc op = new calc();
-        System.out.println("addition: " + op.add(29,11));
-        System.out.println("Subtraction: " + op.sub(29,11));
+        System.out.println("addition: " + op.add(29,11)); //40
+        System.out.println("Subtraction: " + op.sub(29,11)); //18
     }
 }
