@@ -11,7 +11,6 @@ class AdvCalc extends calc {
     public long mul(long N1,long N2) {
         return N1 * N2;
     }
-
     public long div(long N1,long N2) {
         if (N2 == 0) {
             throw new ArithmeticException("Division by zero not allowed");
